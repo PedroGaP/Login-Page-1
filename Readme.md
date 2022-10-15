@@ -1,3 +1,3 @@
 # Login Page
 
-![Website Page](/web_image.jpg)
+![Website Page](/web_page.jpg)
