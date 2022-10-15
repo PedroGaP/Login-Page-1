@@ -12,7 +12,7 @@
     <div class="container">
        
         <div class="left-container">
-            <h2>Junte-se a nós <br> Faça já o seu Login!</h2>
+            <h2>Join and be part of us<br>Login Now!</h2>
             <img src="./assets/social.svg" class="left-container-image" alt="imagem">
         </div>
         <div class="right-container">
@@ -22,9 +22,10 @@
 
                 if(isset($_SESSION['error'])) {
                     echo '<div class="alert">
-                            '. $_SESSION['error'] .'.
-                            <span class="closebtn" onclick="this.parentElement.style.display="none";">&times;</span>
+                            '. $_SESSION['error'] .'
+                            <span class="closebtn" onclick="this.parentElement.style.display="'.'none'.'";">&times;</span>
                         </div>';
+                        unset($_SESSION['error']);
                 }
             ?>
             
