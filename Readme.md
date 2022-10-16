@@ -1,3 +1,5 @@
 # Login Page
 
-![Website Page](/web_page.png)
+![Desktop Website Page](/web_page.png)
+
+![Mobile Website Page](/web_page_mb.png)
